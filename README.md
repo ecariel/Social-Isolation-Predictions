@@ -4,19 +4,9 @@
 
 The development of the framework consists of 3 parts: RADARBASE which can be found at the following link: https://github.com/ecariel/RADAR-kubernetes, the prediction of social isolation present in this repository and the visualization which is done using Elasticsearch and Kibana.
 
----
-
-## 🎯 Objectives
-
-1. **Automation:** Simplify the deployment and management of RADAR-base using Kubernetes.
-2. **Scalability:** Ensure services can scale horizontally and vertically based on system demands.
-3. **Security:** Implement and manage secrets and credentials in a centralized manner.
-4. **Modularity:** Allow services to be easily interchangeable or configurable.
-5. **Monitoring and analysis:** Integrate tools like Elasticsearch and Kibana for real-time data monitoring.
-
----
-
 ## 🛠️ Use monitoring predictions
+
+1. Image your-user/modelos-image:latest: Build this image from the models-image/ directory:
 
    ```shell
    cd modelos-image/
