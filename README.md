@@ -15,24 +15,15 @@ The development of the framework consists of 3 parts: RADARBASE which can be fou
    cd ..
    ```
 
-### **Prerequisites**
+2. Image monitoring-prediction:latest:
 
-Before you begin, make sure you have the following installed and configured:
+   ```shell
+   docker build -t tu-usuario/monitor-prediccion:latest .
+   docker push tu-usuario/monitor-prediccion:latest
+   ```
 
-1. **Kubernetes Cluster**
-   - A running Kubernetes cluster.
-   - `kubectl` configured to interact with the cluster.
-2. **Helm**
-   - A package manager for Kubernetes.
-   - [Installation guide](https://helm.sh/docs/intro/install/)
-3. **Git**
-   - To clone the repository.
-4. **Docker**
-   - To build custom images, if needed.
+3. Deployment
 
-### **Installation Steps**
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ecariel/RADAR-kubernetes.git
-   cd RADAR-kubernetes
+   ```shell
+   kubectl apply -f deployment.yaml
+   ```
