@@ -2,7 +2,7 @@
 
 ## 📘 Introduction
 
-The development of the framework consists of 3 parts: RADARBASE which can be found at the following link: , the prediction of social isolation present in this repository and the visualization which is done using Elasticsearch and Kibana.
+The development of the framework consists of 3 parts: RADARBASE which can be found at the following link: https://github.com/ecariel/RADAR-kubernetes, the prediction of social isolation present in this repository and the visualization which is done using Elasticsearch and Kibana.
 
 ---
 
@@ -16,7 +16,14 @@ The development of the framework consists of 3 parts: RADARBASE which can be fou
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Use monitoring predictions
+
+   ```shell
+   cd modelos-image/
+   docker build -t tu-usuario/modelos-image:latest .
+   docker push tu-usuario/modelos-image:latest
+   cd ..
+   ```
 
 ### **Prerequisites**
 
